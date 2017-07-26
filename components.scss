@@ -1,0 +1,5 @@
+@each $class, $value in $gridi-helpers-text-alignment-classes {
+    .#{$class} {
+        text-align: $value;
+    }
+}
